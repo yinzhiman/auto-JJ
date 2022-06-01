@@ -24,7 +24,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        
     - name: Install Dependency       
-      run: |
+    - run: |
           npm install     
           node ./index.js  #脚本存在根目录 
