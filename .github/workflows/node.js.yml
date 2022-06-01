@@ -26,7 +26,5 @@ jobs:
         
     - name: Install Dependency       
       run: |
-          npm install
-          npm install got
-          npm install tough-cookie         
+          npm install     
           node ./index.js  #脚本存在根目录 
