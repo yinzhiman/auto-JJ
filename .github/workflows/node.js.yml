@@ -29,4 +29,4 @@ jobs:
           npm install
           npm install got
           npm install tough-cookie         
-          node ./index.js  #脚本存在根目录
+          node ./index.js  #脚本存在根目录 
