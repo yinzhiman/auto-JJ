@@ -26,6 +26,5 @@ jobs:
         cache: 'npm'
         
     - name: Install Dependency       
-    - run: |
-          npm install     
-          node ./index.js  #脚本存在根目录 
+    - run: npm install     
+    - run: node ./index.js  #脚本存在根目录 
